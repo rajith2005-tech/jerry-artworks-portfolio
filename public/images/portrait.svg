@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 750" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EBE7DE" />
+      <stop offset="100%" stop-color="#D5CFC2" />
+    </linearGradient>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="50%">
+      <stop offset="60%" stop-color="rgba(0,0,0,0)" />
+      <stop offset="100%" stop-color="rgba(0,0,0,0.12)" />
+    </radialGradient>
+  </defs>
+  <rect width="600" height="750" fill="url(#bg)" />
+  <rect width="600" height="750" fill="url(#vignette)" />
+  
+  <!-- Subtle border guidelines -->
+  <rect x="25" y="25" width="550" height="700" fill="none" stroke="#BBB2A1" stroke-width="1.5" stroke-dasharray="6,6" />
+  
+  <!-- Artist Silhouette / Icon -->
+  <g transform="translate(300, 310)" text-anchor="middle" fill="#6B6458">
+    <circle cx="0" cy="-60" r="50" fill="#7A7366" />
+    <path d="M-90,65 C-90,-5 -50,-20 0,-20 C50,-20 90,-5 90,65 Z" fill="#7A7366" />
+    <circle cx="0" cy="-60" r="28" fill="#EBE7DE" />
+  </g>
+  
+  <!-- Typography Details -->
+  <text x="300" y="470" text-anchor="middle" font-family="'Syne', 'Plus Jakarta Sans', sans-serif" font-weight="700" font-size="20" letter-spacing="4" fill="#2E2B27">
+    HERO PORTRAIT
+  </text>
+  <text x="300" y="505" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="500" letter-spacing="1" fill="#7C7467">
+    Replace file: public/images/portrait.jpg
+  </text>
+  <text x="300" y="535" text-anchor="middle" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" fill="#999183">
+    Recommended Ratio: 3:4 (e.g. 600x800 px)
+  </text>
+</svg>
