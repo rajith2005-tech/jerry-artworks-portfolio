@@ -2,16 +2,22 @@
 
 # 🎨 Jerry Artworks — Portfolio Website
 
-**Personal & Confidential Portfolio for Graphite & Digital Artist Rajith (Jerry Artworks).**
+**A bespoke, high-performance editorial portfolio for Graphite & Digital Artist Rajith (Jerry Artworks).**
 
 [![React](https://img.shields.io/badge/React-19.0.0-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://react.dev/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.0-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
-[![Visibility](https://img.shields.io/badge/Repository-Private-red?style=for-the-badge)](https://github.com/)
+[![License](https://img.shields.io/badge/License-All_Rights_Reserved-red?style=for-the-badge)](LICENSE)
 
 <br />
 
-[Features](#-key-features) • [Local Development](#-local-development) • [Project Architecture](#-project-architecture) • [Customization](#-customization-guide) • [Deployment](#-deployment)
+> ⚠️ **NOTICE: SHOWCASE ONLY**  
+> This repository is public for **evaluation, recruitment, and portfolio demonstration purposes only**.  
+> **Cloning, copying, modifying, reproducing, or redistributing this codebase and its artworks without explicit written permission is strictly prohibited.**
+
+<br />
+
+[Features](#-key-features) • [Tech Stack](#-tech-stack) • [Architecture](#-project-architecture) • [Live Demo & Contact](#-author--contact)
 
 </div>
 
@@ -19,9 +25,9 @@
 
 ## 📖 Overview
 
-**Jerry Artworks** is a modern editorial portfolio designed with museum gallery aesthetics and built on a cutting-edge frontend architecture. 
+**Jerry Artworks** is a modern editorial art portfolio designed with museum gallery aesthetics and built on a cutting-edge frontend architecture. 
 
-It combines fine-art curation (realistic matting, asymmetric layouts, rich typography) with modern web development best practices (strict TypeScript typings, component modularity, fluid responsive layouts, and zero heavy UI library bloat).
+It combines traditional fine-art curation (realistic matting, asymmetric layouts, rich typography) with modern web development best practices (strict TypeScript typings, component modularity, fluid responsive layouts, and zero heavy UI library bloat).
 
 ---
 
@@ -102,89 +108,21 @@ jerry-artworks-portfolio/
 
 ---
 
-## 💻 Local Development
+## 🔒 Copyright & Terms of Use
 
-```bash
-# 1. Navigate into the project directory
-cd /home/rajith/.gemini/antigravity/scratch/jerry-artworks-portfolio
+© 2024–2026 **Rajith T R (Jerry Artworks)**. All rights reserved.
 
-# 2. Install dependencies
-npm install
+- **Viewing Only**: This repository is public for evaluation, recruitment, and portfolio demonstration purposes.
+- **No Reproduction or Redistribution**: No part of this code, repository structure, styling, or artwork assets may be cloned, forked, copied, scraped, redistributed, or used in any other projects (commercial or non-commercial) without prior written permission from the author.
+- **Artwork Protection**: All original characters, illustrations, graphite drawings, and digital paintings contained in this repository are protected under international copyright law.
 
-# 3. Start local development server
-npm run dev
-```
-
-The application will run locally at `http://localhost:3000`.
+For permissions, commissions, or business inquiries, please contact: [contact@jerryartworks.com](mailto:contact@jerryartworks.com)
 
 ---
 
-## ✏️ Customization Guide
-
-All portfolio content is decoupled from UI components and cleanly centralized in [`src/data/portfolioData.ts`](src/data/portfolioData.ts).
-
-### Adding / Modifying Artworks
-To update artworks, place your image inside `public/images/` and update `portfolioData.ts`:
-
-```typescript
-export const initialArtworks: Artwork[] = [
-  {
-    id: "art-1",
-    title: "YOUR ARTWORK TITLE",
-    medium: "Graphite pencil on Bristol",
-    year: "2025",
-    category: "anime", // 'anime' | 'portrait' | 'concept' | 'study'
-    orientation: "portrait", // 'portrait' | 'landscape'
-    aspectRatio: "3/4", // '3/4' for portrait, '4/3' or '16/10' for landscape
-    imageUrl: "/images/your-file.jpeg",
-    dimensions: "18 x 24 in",
-    description: "Detailed description of the piece and artistic process.",
-    featured: true
-  }
-];
-```
-
-### Modifying Artist Bio & Contact Channels
-Edit `artistProfile` and `contactData` in `src/data/portfolioData.ts`:
-
-```typescript
-export const contactData: ContactInfo = {
-  location: "STUDIO LOCATION",
-  locationDetails: "Your City, State / Country",
-  email: "your.email@example.com",
-  phone: "+1 (555) 000-0000",
-  socials: [
-    { name: "Instagram", handle: "@_jerry__artworks", url: "https://instagram.com/..." },
-    { name: "LinkedIn", handle: "Rajith T R", url: "https://linkedin.com/in/..." },
-    { name: "GitHub", handle: "rajith2005-tech", url: "https://github.com/..." }
-  ]
-};
-```
-
----
-
-## 🚢 Deployment (Vercel / Netlify)
-
-Even with a private GitHub repository, you can host your portfolio publicly or with password protection:
-
-1. Push this project to your **Private GitHub Repository**.
-2. Connect your GitHub account to [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/).
-3. Import your private repository (`jerry-artworks-portfolio`).
-4. Framework preset: **Vite** (Build command: `npm run build`, Output directory: `dist`).
-5. Click **Deploy** — your live website link will be generated!
-
----
-
-## 👤 Author & Copyright
+## 👤 Author & Contact
 
 **Rajith T R (Jerry Artworks)**
 - 🎨 **Instagram**: [@_jerry__artworks](https://www.instagram.com/_jerry__artworks?igsh=cXowYWYyZHZ0dm5l)
 - 💼 **LinkedIn**: [Rajith T R](https://www.linkedin.com/in/rajith-t-r-12899b290)
 - 🐙 **GitHub**: [@rajith2005-tech](https://github.com/rajith2005-tech)
-
----
-
-## 🔒 Copyright Notice
-
-© 2024–2026 Rajith T R (Jerry Artworks). All rights reserved.  
-All artwork, illustrations, designs, and content are proprietary intellectual property. Unauthorized copying, distribution, or reproduction is strictly prohibited.
