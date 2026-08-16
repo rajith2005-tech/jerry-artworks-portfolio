@@ -11,7 +11,7 @@ export const artistProfile: ArtistProfile = {
     "Art has been my personal pursuit for over a decade. Whether building rich texture through 4B–8B graphite pencils or sculpting digital light and silhouettes in digital painting software, I strive to create characters that convey raw emotion, movement, and narrative depth.",
   // Directly points to your image file in public/images/
   // To change your photo, simply place your photo as public/images/portrait.jpg (or .png/.svg)
-  heroPortraitUrl: "/images/portrait.svg"
+  heroPortraitUrl: "/images/portrait.png"
 };
 
 export const initialArtworks: Artwork[] = [
