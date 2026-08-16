@@ -17,74 +17,69 @@ export const artistProfile: ArtistProfile = {
 export const initialArtworks: Artwork[] = [
   {
     id: "art-1",
-    title: "GUARDIAN SPIRIT",
-    medium: "Graphite & Digital Colors",
-    year: "2024",
-    category: "concept",
+    title: "GIYU TOMIYOKA",
+    medium: "Graphite pencil",
+    year: "2025",
+    category: "anime",
     orientation: "portrait",
     aspectRatio: "3/4",
-    // File location: public/images/art-1.svg (or replace with art-1.jpg / art-1.png)
-    imageUrl: "/images/art-1.svg",
+    imageUrl: "/images/art1.jpeg",
     dimensions: "18 x 24 in",
     description:
-      "A dual-medium study exploring human connection and spirit folklore. Layered with soft graphite hatching, blended gradients, and luminous digital highlights.",
+      "High-contrast anime character study featuring sharp line weights, dynamic flowing fabric, and dramatic rim lighting rendered entirely with mechanical and woodless graphite.",
     featured: true
   },
   {
     id: "art-2",
-    title: "BLADE OF THE DRIFTER",
+    title: "DOUMA",
     medium: "Traditional Graphite on Bristol",
-    year: "2024",
+    year: "2025",
     category: "anime",
     orientation: "portrait",
     aspectRatio: "3/4",
-    // File location: public/images/art-2.svg (or replace with art-2.jpg / art-2.png)
-    imageUrl: "/images/art-2.svg",
+    imageUrl: "/images/art2.jpeg",
     dimensions: "11 x 14 in",
     description:
-      "High-contrast anime character study featuring sharp line weights, dynamic flowing fabric, and dramatic rim lighting rendered entirely with mechanical and woodless graphite.",
+      "Anime character study featuring detailed anatomical portraiture, expressive facial silhouettes, and dynamic poses rendered entirely with mechanical graphite pencils.",
     featured: false
   },
   {
     id: "art-3",
-    title: "VALLEY OF REPOSE",
-    medium: "Digital Environment & Concept",
+    title: "LUFFY GEAR 5",
+    medium: "GRAPHITE AND CHARCOAL",
     year: "2023",
-    category: "concept",
+    category: "anime",
     orientation: "landscape",
     aspectRatio: "4/3",
-    // File location: public/images/art-3.svg (or replace with art-3.jpg / art-3.png)
-    imageUrl: "/images/art-3.svg",
+    imageUrl: "/images/art3.jpeg",
     dimensions: "3840 x 2160 px",
     description:
-      "Panoramic atmospheric landscape capturing twilight tones, architectural silhouettes, and soft cinematic atmospheric haze.",
+      "anime character art with custom poses, expressive facial silhouettes, and dynamic poses rendered entirely with mechanical graphite pencils.",
     featured: false
   },
   {
     id: "art-4",
-    title: "STUDY IN MONOCHROME",
-    medium: "Graphite Pencil & Charcoal",
-    year: "2023",
+    title: "WEDNESDAY ADAMS",
+    medium: "Digital Painting",
+    year: "2026",
     category: "portrait",
     orientation: "portrait",
     aspectRatio: "3/4",
-    // File location: public/images/art-4.svg (or replace with art-4.jpg / art-4.png)
-    imageUrl: "/images/art-4.svg",
+    imageUrl: "/images/art4.png",
     dimensions: "12 x 16 in",
     description:
-      "A deep dive into facial planes, expressive micro-shadows, and organic hair flow. Emphasizing subtle tone transitions without over-smudging.",
+      "Character study with realistic facial features, expressive facial silhouettes, and dynamic poses rendered entirely with digital painting software.",
     featured: false
   },
   {
     id: "art-5",
-    title: "CELESTIAL VOID RUNNER",
+    title: "JINX",
     medium: "Digital Painting / Concept Art",
-    year: "2024",
+    year: "2026",
     category: "concept",
     orientation: "landscape",
-    aspectRatio: "16/10",
-    // File location: public/images/art-5.svg (or replace with art-5.jpg / art-5.png)
-    imageUrl: "/images/art-5.svg",
+    aspectRatio: "4/3",
+    imageUrl: "/images/art5.jpeg",
     dimensions: "4000 x 2500 px",
     description:
       "Futuristic concept character and creature composition floating through deep space nebulae with intense cyan and amber volumetric light.",
@@ -121,29 +116,25 @@ export const disciplineMilestones: DisciplineArea[] = [
 
 export const contactData: ContactInfo = {
   location: "STUDIO LOCATION",
-  locationDetails: "Your City, State / Country • Available Worldwide for Commissions",
-  email: "contact@jerryartworks.com",
-  phone: "+1 (555) 019-2834",
+  locationDetails: " Erode, Tamil Nadu / India • Available Worldwide for Commissions",
+  email: "rajitr2005@gmail.com",
+  phone: "+91 8807870452",
   socials: [
     {
       name: "Instagram",
-      handle: "@jerryartworks",
-      url: "https://instagram.com"
+      handle: "@jerry_artworks",
+      url: "https://www.instagram.com/_jerry__artworks?igsh=cXowYWYyZHZ0dm5l"
     },
-    {
-      name: "ArtStation",
-      handle: "jerryartworks",
-      url: "https://artstation.com"
-    },
+   
     {
       name: "LinkedIn",
-      handle: "Rajith (Jerry Artworks)",
-      url: "https://linkedin.com"
+      handle: "Rajith T R",
+      url: "https://www.linkedin.com/in/rajith-t-r-12899b290?utm_source=share_via&utm_content=profile&utm_medium=member_android"
     },
     {
       name: "GitHub",
-      handle: "rajith-art",
-      url: "https://github.com"
+      handle: "rajith2005-tech",
+      url: "https://github.com/rajith2005-tech"
     }
   ]
 };
