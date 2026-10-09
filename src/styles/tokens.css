@@ -1,0 +1,109 @@
+/* ==========================================================================
+   JERRY ARTWORKS — DESIGN SYSTEM TOKENS
+   Fine-Art Charcoal & Museum Archival Direction
+   ========================================================================== */
+
+:root {
+  /* --- PALETTE: Archival Fine Art & Museum Tone --- */
+  --bg-primary: #FAF8F5;            /* Heavy 300gsm cold-press archival paper */
+  --bg-secondary: #F2EFE9;          /* Tinted rag paper surface */
+  --bg-tertiary: #E8E4DC;           /* Warm shadow ground */
+  --bg-canvas-mat: #FFFFFF;         /* Pristine museum exhibition matting */
+  --bg-dark-obsidian: #0E0E0F;      /* Deep carbon black for high-contrast viewing */
+  --bg-dark-surface: #171616;       /* Dark card surface */
+
+  /* --- INK & GRAPHITE VALUE KEYS --- */
+  --ink-primary: #181716;           /* Heavy carbon / 8B pencil core */
+  --ink-secondary: #4A4742;         /* 4B graphite midtone wash */
+  --ink-muted: #7E7971;             /* 2H graphite structural line */
+  --ink-subtle: #ABA499;            /* Faint paper tooth tone */
+  --ink-inverse: #FAF8F5;           /* Light text on dark modal/curtain */
+
+  /* --- ACCENTS & SIGNATURE CURATION --- */
+  --accent-ochre: #C29B38;          /* Gilded gold fine-art seal */
+  --accent-ochre-glow: rgba(194, 155, 56, 0.2);
+  --accent-vermillion: #A8332A;     /* Traditional Asian artist signature stamp (Chop) */
+  --accent-cyan: #2A8C82;           /* Subtle digital cyan rim light */
+
+  /* --- BORDERS & FRAMING --- */
+  --border-hairline: 1px solid rgba(24, 23, 22, 0.08);
+  --border-light: 1px solid #E2DDD5;
+  --border-strong: 1.5px solid #181716;
+  --border-frame-wood: 8px solid #181716;
+
+  /* --- SHADOWS & LIGHTING --- */
+  --shadow-subtle: 0 4px 20px -2px rgba(24, 23, 22, 0.06);
+  --shadow-float: 0 16px 36px -8px rgba(24, 23, 22, 0.12), 0 6px 14px -4px rgba(24, 23, 22, 0.06);
+  --shadow-frame-resting: 0 18px 45px -12px rgba(24, 23, 22, 0.2), 0 8px 18px -6px rgba(24, 23, 22, 0.1);
+  --shadow-frame-hover: 0 30px 65px -15px rgba(24, 23, 22, 0.28), 0 14px 28px -8px rgba(24, 23, 22, 0.14);
+  --shadow-modal: 0 40px 100px -20px rgba(0, 0, 0, 0.6);
+
+  /* --- TYPOGRAPHY FAMILIES --- */
+  --font-display: 'Syne', -apple-system, sans-serif;
+  --font-script: 'Italianno', cursive, serif;
+  --font-serif: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Space Mono', monospace;
+
+  /* --- TYPOGRAPHIC SCALE --- */
+  --text-3xs: 0.62rem;
+  --text-2xs: 0.72rem;
+  --text-xs: 0.82rem;
+  --text-sm: 0.92rem;
+  --text-base: 1rem;
+  --text-lg: 1.15rem;
+  --text-xl: 1.45rem;
+  --text-2xl: 1.95rem;
+  --text-3xl: 2.65rem;
+  --text-4xl: 3.5rem;
+  --text-hero: clamp(2.8rem, 9.5vw, 7.2rem);
+  --text-script-hero: clamp(5.2rem, 15vw, 11rem);
+
+  /* --- SPACING TOKENS (4px baseline grid) --- */
+  --space-1: 0.25rem;   /* 4px */
+  --space-2: 0.5rem;    /* 8px */
+  --space-3: 0.75rem;   /* 12px */
+  --space-4: 1rem;      /* 16px */
+  --space-5: 1.25rem;   /* 20px */
+  --space-6: 1.5rem;    /* 24px */
+  --space-8: 2rem;      /* 32px */
+  --space-10: 2.5rem;   /* 40px */
+  --space-12: 3rem;     /* 48px */
+  --space-16: 4rem;     /* 64px */
+  --space-20: 5rem;     /* 80px */
+  --space-24: 6rem;     /* 96px */
+  --space-32: 8rem;     /* 128px */
+
+  /* --- CONTAINER & WIDTHS --- */
+  --container-max: 1440px;
+  --container-editorial: 1180px;
+  --container-narrow: 840px;
+
+  /* --- MOTION & EASING CURVES --- */
+  --ease-editorial: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-out-expo: cubic-bezier(0.19, 1, 0.22, 1);
+  --ease-in-out-smooth: cubic-bezier(0.65, 0, 0.35, 1);
+  --duration-micro: 180ms;
+  --duration-snappy: 320ms;
+  --duration-page: 650ms;
+  --duration-cinematic: 1100ms;
+
+  /* --- Z-INDEX ELEVATION --- */
+  --z-negative: -1;
+  --z-base: 1;
+  --z-floating: 10;
+  --z-nav: 100;
+  --z-cursor: 999;
+  --z-curtain: 1000;
+  --z-modal: 1100;
+}
+
+/* Reduced motion preference override */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-micro: 0.01ms;
+    --duration-snappy: 0.01ms;
+    --duration-page: 0.01ms;
+    --duration-cinematic: 0.01ms;
+  }
+}
